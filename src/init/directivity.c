@@ -202,7 +202,7 @@
                     iThetaFilter = nThetasFilter - 1;
                 }                
 
-                gainFilter = beampatterns_spatialfilter->gains[iFilter * nThetasFilter + iThetaFilter];
+                gainFilter = beampatterns_spatialfilter->gains[iThetaFilter];
 
                 gainFilters *= gainFilter;
 
